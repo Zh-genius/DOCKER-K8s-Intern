@@ -163,8 +163,6 @@ systemctl daemon-reload
 systemctl restart docker
 ```
 
-# Complete Guide to Deploying MySQL with Helm in Kubernetes (Continued)
-
 ### 6. Deploy Kubernetes Cluster
 
 #### (1) Install kubeadm, kubelet, and kubectl (All Nodes)
@@ -363,4 +361,4 @@ Core advantages of deploying MySQL via Helm Chart:
 - **Version Management**: Supports upgrades and rollbacks for easy application lifecycle management.
 - **Flexible Configuration**: Customize parameters via `values.yaml` to adapt to different environment requirements.
 
-This workflow is applicable to the deployment of most mainstream applications in Kubernetes environments. Adjust configurations (such as resource limits, storage classes, and network policies) according to actual production needs to ensure stable operation of applications.部署，是 Kubernetes 生态中标准化、高效的应用管理方式。
+This workflow is applicable to the deployment of most mainstream applications in Kubernetes environments. Adjust configurations (such as resource limits, storage classes, and network policies) according to actual production needs to ensure stable operation of applications.
